@@ -1,0 +1,29 @@
+.fishpic {
+    border-radius: 14%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: honeydew ;
+}
+
+footer {
+    margin-top: 15%;
+}
+
+#activities {
+    padding: 7% 5%;
+    position: relative;
+    text-align: center;
+}
+
+.fonty {
+    padding-bottom: 1.5rem;
+    margin: auto;
+}
+
+.card-body {
+    margin: auto;
+}
