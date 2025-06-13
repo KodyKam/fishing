@@ -9,7 +9,7 @@ body {
 
 .custom-navbar .nav-link,
 .custom-navbar .navbar-brand {
-  color: #fff !important;  /* force white */
+  color: #f8f9fa !important;  /* force bright */
 }
 
 .custom-navbar .nav-link:hover,
