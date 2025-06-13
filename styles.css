@@ -7,6 +7,16 @@ body {
     background-color: #388e3c;
 }
 
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: #ffcc00;  /* Example: bright yellow, pick your color! */
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .navbar-brand:hover {
+  color: #ffffff;  /* Example: white on hover */
+}
+
 .fishpic {
     border-radius: 14%;
     margin-left: 20px;
