@@ -9,12 +9,12 @@ body {
 
 .custom-navbar .nav-link,
 .custom-navbar .navbar-brand {
-  color: #ffcc00;  /* Example: bright yellow, pick your color! */
+  color: #fff !important;  /* force white */
 }
 
 .custom-navbar .nav-link:hover,
 .custom-navbar .navbar-brand:hover {
-  color: #ffffff;  /* Example: white on hover */
+  color: #ffd700 !important;  /* gold or any hover color you like */
 }
 
 .fishpic {
