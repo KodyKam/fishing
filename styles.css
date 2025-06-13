@@ -1,16 +1,23 @@
+body {
+    background-color: #0b3d91;
+    color: #f0f8ff;
+}
+
+.navbar, footer {
+    background-color: #002c5f;
+}
+
 .fishpic {
     border-radius: 14%;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-body {
-    background-color: honeydew ;
+    box-shadow: 0 0 15px #00bcd4;
 }
 
 footer {
     margin-top: 15%;
+    color: #f0f8ff;
 }
 
 #activities {
@@ -26,4 +33,36 @@ footer {
 
 .card-body {
     margin: auto;
+    background-color: #001f3f;
+    color: #f0f8ff;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #001f3f;
+    color: #00bcd4;
+}
+
+.btn-success, .btn-outline-success {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+    color: #001f3f;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    color: #00bcd4;
+}
+
+.btn-outline-success:hover {
+    background-color: #00bcd4;
+    color: #001f3f;
+}
+
+h2, h3, .nav-link, .navbar-brand {
+    color: #00bcd4;
+}
+
+.nav-link.active {
+    color: #f0f8ff !important;
 }
