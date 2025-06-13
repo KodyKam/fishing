@@ -1,10 +1,10 @@
 body {
-    background-color: #e0f7fa;
-    color: #004d40;
+    background-color: #ffccbc;
+    color: #4e342e;
 }
 
 .navbar, footer {
-    background-color: #00796b;
+    background-color: #d84315;
 }
 
 .fishpic {
@@ -12,12 +12,12 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px #004d40;
+    box-shadow: 0 0 10px #bf360c;
 }
 
 footer {
     margin-top: 15%;
-    color: #e0f7fa;
+    color: #ffccbc;
 }
 
 #activities {
@@ -33,37 +33,37 @@ footer {
 
 .card-body {
     margin: auto;
-    background-color: #b2dfdb;
-    color: #004d40;
+    background-color: #ffe0b2;
+    color: #4e342e;
     border-radius: 10px;
 }
 
 .card-header {
-    background-color: #b2dfdb;
-    color: #004d40;
+    background-color: #ffe0b2;
+    color: #bf360c;
 }
 
 .btn-success {
-    background-color: #004d40;
-    border-color: #004d40;
-    color: #e0f7fa;
+    background-color: #bf360c;
+    border-color: #bf360c;
+    color: #ffccbc;
 }
 
 .btn-outline-success {
     background-color: transparent;
-    border-color: #004d40;
-    color: #004d40;
+    border-color: #bf360c;
+    color: #bf360c;
 }
 
 .btn-outline-success:hover {
-    background-color: #004d40;
-    color: #e0f7fa;
+    background-color: #bf360c;
+    color: #ffccbc;
 }
 
 h2, h3, .nav-link, .navbar-brand {
-    color: #004d40;
+    color: #bf360c;
 }
 
 .nav-link.active {
-    color: #e0f7fa !important;
+    color: #ffccbc !important;
 }
