@@ -13,6 +13,17 @@ footer {
     margin-top: 15%;
 }
 
+.footer-email-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-email-link:hover {
+  color: #ffc107; /* soft yellow hover */
+  text-decoration: underline;
+}
+
 #activities {
     padding: 7% 5%;
     position: relative;
