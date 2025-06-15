@@ -14,13 +14,13 @@ footer {
 }
 
 .footer-email-link {
-  color: #ffffff;
+  color: #145A32;
   text-decoration: none;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .footer-email-link:hover {
-  color: #ffc107; /* soft yellow hover */
+  color: #ffc107; /* soft yellow on hover */
   text-decoration: underline;
 }
 
