@@ -444,4 +444,25 @@
     });
 
     // Form submission handling
-    document.getElementById('contactForm').
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get form values
+      const name = this.querySelector('input[type="text"]').value;
+      const email = this.querySelector('input[type="email"]').value;
+      const message = this.querySelector('textarea').value;
+      
+      // Create mailto link
+      const subject = `New Message from ${name} - Fishing Inquiry`;
+      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+      
+      // Open email client
+      window.location.href = `mailto:kamara.alleyne@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+      // Show success message
+      alert('Your email client will open with your message. Click send to contact us!');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
