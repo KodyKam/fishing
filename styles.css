@@ -436,3 +436,12 @@ footer::before {
 html {
     scroll-behavior: smooth;
 }
+
+/* Background Image */
+.contact-hero {
+  background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+              url('./contact-bg.jpg') center/cover no-repeat;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
