@@ -1,91 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fishing With Kam and Steve</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>What We Do | Fishing With Kam & Steve</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="See our step-by-step process for epic fishing adventures with Kam & Steve.">
+  <meta property="og:title" content="What We Do - Fishing With Kam & Steve">
+  <meta property="og:description" content="From planning to fishing to vibing - our complete adventure process.">
+  
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css">
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    h1, h2, h3, .navbar-brand {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fishing With Kam & Steve</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <i class="fas fa-fish me-2"></i>
+        Fishing With Kam & Steve
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="./index.html">Home</a>
-          <a class="nav-link" href="./about.html">What We Do</a>
-          <a class="nav-link" href="./things2know.html">Things 2 Know</a>
-          <a class="nav-link" href="./contact.html">Contact</a>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="./index.html">
+            <i class="fas fa-home me-1"></i> Home
+          </a>
+          <a class="nav-link active" href="./about.html">
+            <i class="fas fa-compass me-1"></i> What We Do
+          </a>
+          <a class="nav-link" href="./things2know.html">
+            <i class="fas fa-info-circle me-1"></i> Things 2 Know
+          </a>
+          <a class="nav-link" href="./contact.html">
+            <i class="fas fa-phone-alt me-1"></i> Contact
+          </a>
         </div>
       </div>
     </div>
   </nav>
 
-  <section id="activities" class="container py-5">
-    <div class="row g-4">
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-regular fa-calendar-days fa-5x fonty"></i>
-        <h3>Plan</h3>
-        <p class="liltext">Choose a Date</p>
+  <!-- Hero Section -->
+  <section class="py-5 bg-gradient text-white" style="background: linear-gradient(135deg, #145A32 0%, #1E8449 100%);">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mx-auto text-center">
+          <h1 class="display-4 fw-bold mb-4" data-aos="fade-up">
+            <i class="fas fa-route me-3"></i>Our Adventure Process
+          </h1>
+          <p class="lead mb-0" data-aos="fade-up" data-aos-delay="200">
+            From planning to fishing to vibing - here's how we create unforgettable fishing experiences
+          </p>
+        </div>
       </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-sack-dollar fa-5x fonty"></i>
-        <h3>Fund It</h3>
-        <p class="liltext">Pool resources.</p>
+    </div>
+  </section>
+
+  <!-- Process Timeline -->
+  <section class="py-5" id="activities">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Step 1 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up">
+          <div class="position-relative">
+            <div class="step-number">01</div>
+            <i class="fa-regular fa-calendar-days fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Plan</h3>
+            <p class="liltext">Choose a date that works for everyone</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-clock me-1"></i> Flexible Scheduling
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="position-relative">
+            <div class="step-number">02</div>
+            <i class="fa-solid fa-sack-dollar fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Fund It</h3>
+            <p class="liltext">Pool resources fairly and transparently</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-money-bill-wave me-1"></i> Cost Sharing
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="position-relative">
+            <div class="step-number">03</div>
+            <i class="fa-solid fa-cart-shopping fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Food & Supplies</h3>
+            <p class="liltext">Shop 2 days before for fresh ingredients</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-utensils me-1"></i> Meal Planning
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up">
+          <div class="position-relative">
+            <div class="step-number">04</div>
+            <i class="fa-solid fa-car fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Meet Up</h3>
+            <p class="liltext">Central location for carpool convenience</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-users me-1"></i> Team Assembly
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="position-relative">
+            <div class="step-number">05</div>
+            <i class="fa-solid fa-car-side fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Head Out</h3>
+            <p class="liltext">Hit the road with good music and vibes</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-road me-1"></i> Road Trip Ready
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="position-relative">
+            <div class="step-number">06</div>
+            <i class="fa-solid fa-fish fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Fish</h3>
+            <p class="liltext">Cast the line and enjoy the serenity</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-water me-1"></i> On the Water
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 7 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up">
+          <div class="position-relative">
+            <div class="step-number">07</div>
+            <i class="fa-solid fa-bowl-food fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Eat</h3>
+            <p class="liltext">Freshly cooked breakfast and snacks</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-fire me-1"></i> Cook & Enjoy
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 8 -->
+        <div class="points col-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="position-relative">
+            <div class="step-number">08</div>
+            <i class="fa-solid fa-circle-play fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Music</h3>
+            <p class="liltext">Vibe with music until sunset</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-music me-1"></i> Sunset Vibes
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 9 - The Return -->
+        <div class="points col-lg-4 col-md-6 text-center mx-auto" data-aos="fade-up" data-aos-delay="200">
+          <div class="position-relative">
+            <div class="step-number">09</div>
+            <i class="fa-solid fa-home fa-4x fonty mb-3"></i>
+            <h3 class="fw-bold mb-2">Return Home</h3>
+            <p class="liltext">Share memories and plan the next adventure</p>
+            <div class="mt-3">
+              <span class="badge bg-success bg-opacity-10 text-success py-2 px-3">
+                <i class="fas fa-heart me-1"></i> Memories Made
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-cart-shopping fa-5x fonty"></i>
-        <h3>Food & Supplies</h3>
-        <p class="liltext">Shop 2 days before</p>
-      </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-car fa-5x fonty"></i>
-        <h3>Meet Up</h3>
-        <p class="liltext">Carpool</p>
-      </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-car-side fa-5x fonty"></i>
-        <h3>Head Out</h3>
-        <p class="liltext">Hit the Road</p>
-      </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-fish fa-5x fonty"></i>
-        <h3>Fish</h3>
-        <p class="liltext">Cast the line</p>
-      </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-bowl-food fa-5x fonty"></i>
-        <h3>Eat</h3>
-        <p class="liltext">Breakfast</p>
-      </div>
-      <div class="points col-lg-4 col-md-6 text-center">
-        <i class="fa-solid fa-circle-play fa-5x fonty"></i>
-        <h3>Music</h3>
-        <p class="liltext">Vibe til Sunset</p>
+
+      <!-- CTA Section -->
+      <div class="row mt-5">
+        <div class="col-lg-8 mx-auto text-center" data-aos="zoom-in">
+          <div class="card border-0 bg-light p-5 rounded-xl">
+            <h3 class="fw-bold mb-3">Ready to Join the Adventure?</h3>
+            <p class="text-muted mb-4">Experience fishing like never before. Join us for our next trip!</p>
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+              <a href="./contact.html" class="btn btn-success btn-lg">
+                <i class="fas fa-calendar-plus me-2"></i> Book Your Spot
+              </a>
+              <a href="./things2know.html" class="btn btn-outline-success btn-lg">
+                <i class="fas fa-info-circle me-2"></i> What You Need
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-<footer class="text-center mt-5">
-  <div class="footer">
-    <em>Powered by 
-      <strong>
-        <a href="mailto:bigachiever@icloud.com?subject=I%20Need%20A%20Website" 
-           class="footer-email-link">
-          <i class="fa-solid fa-envelope me-1"></i> Kamara Alleyne Web Development
-        </a>
-      </strong>
-    </em>
-  </div>
-</footer>
+  <footer>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+            <i class="fas fa-fish fa-2x text-warning me-3"></i>
+            <h4 class="mb-0 text-white">Fishing With Kam & Steve</h4>
+          </div>
+        </div>
+        
+        <div class="col-md-6 text-center text-md-end">
+          <div class="mb-3">
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-tiktok fa-lg"></i></a>
+          </div>
+          <em>Powered by 
+            <strong>
+              <a href="mailto:bigachiever@icloud.com?subject=I%20Need%20A%20Website" 
+                 class="footer-email-link">
+                <i class="fa-solid fa-envelope me-1"></i> Kamara Alleyne Web Development
+              </a>
+            </strong>
+          </em>
+        </div>
+      </div>
+      
+      <hr class="my-4 opacity-25">
+      
+      <div class="text-center text-muted">
+        <small>&copy; 2024 Fishing With Kam & Steve. All rights reserved. | Made with <i class="fas fa-heart text-danger"></i> for fishing enthusiasts</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS animations
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100
+    });
+
+    // Add step number styling
+    document.addEventListener('DOMContentLoaded', function() {
+      const style = document.createElement('style');
+      style.textContent = `
+        .step-number {
+          position: absolute;
+          top: -10px;
+          right: -10px;
+          background: linear-gradient(135deg, #145A32 0%, #1E8449 100%);
+          color: white;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          font-size: 1.2rem;
+          box-shadow: 0 5px 15px rgba(20, 90, 50, 0.3);
+          z-index: 1;
+        }
+        
+        .points {
+          position: relative;
+          padding: 2rem 1.5rem;
+          background: white;
+          border-radius: 15px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+          transition: all 0.3s ease;
+          border: 2px solid transparent;
+        }
+        
+        .points:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+          border-color: #FFC107;
+        }
+      `;
+      document.head.appendChild(style);
+    });
+  </script>
 </body>
 </html>
