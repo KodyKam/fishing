@@ -445,3 +445,68 @@ html {
   display: flex;
   align-items: center;
 }
+
+/* ===== HERO SECTIONS FOR ALL PAGES ===== */
+
+/* General Hero Styles */
+.page-hero {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(20, 90, 50, 0.85), rgba(20, 90, 50, 0.75));
+    z-index: 1;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Home Page Hero (index.html) */
+.home-hero {
+    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+                url('./hero-bg-home.jpg') center/cover no-repeat;
+}
+
+/* Contact Page Hero */
+.contact-hero {
+    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+                url('./contact-bg.jpg') center/cover no-repeat;
+}
+
+/* About Page Hero */
+.about-hero {
+    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+                url('./about-bg.jpg') center/cover no-repeat;
+}
+
+/* Things to Know Page Hero */
+.things-hero {
+    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+                url('./things-bg.jpg') center/cover no-repeat;
+}
+
+/* Fallback if no image */
+.no-bg-hero {
+    background: linear-gradient(135deg, #145A32 0%, #1E8449 100%);
+}
+
+/* Make sure existing contact-hero doesn't conflict */
+.contact-hero {
+    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
+                url('./contact-bg.jpg') center/cover no-repeat;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
