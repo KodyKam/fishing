@@ -519,11 +519,4 @@ html {
     background: linear-gradient(135deg, #145A32 0%, #1E8449 100%);
 }
 
-/* Make sure existing contact-hero doesn't conflict */
-.contact-hero {
-    background: linear-gradient(rgba(20, 90, 50, 0.9), rgba(20, 90, 50, 0.8)), 
-                url('./contact-bg.jpg') center/cover no-repeat;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-}
+
